@@ -13,7 +13,7 @@ L.tileLayer('https://a.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 $.getJSON("https://raw.githubusercontent.com/orhuna/WebGIS_SLU_M1/main/Module%201/Assignment%201/data/sf_crime.geojson", function (data) {
   console.log(data)
   var ratIcon = L.icon({
-    iconUrl: "http://maptimeboston.github.io/leaflet-intro/rat.gif",
+    iconUrl: "https://cdn-icons-png.freepik.com/512/3128/3128319.png",
     iconSize: [50, 40]
   });
 
